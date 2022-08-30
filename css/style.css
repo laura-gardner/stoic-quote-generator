@@ -1,0 +1,43 @@
+body {
+    background-color: #201A23;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Crimson Text', serif;
+}
+
+.quote-div {
+    margin-top: 5rem;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #95A3A4;
+    padding: 3rem;
+    width: 60%;
+}
+
+.quote-text {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.quote-author {
+    color: #A52422;
+    font-style: italic;
+    font-size: 2rem;
+}
+
+.quote-btn {
+    display: inline-block;
+    border: none;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Crimson Text', serif;
+    font-size: 1.25rem;
+    color: #201A23;
+    width: 10rem;
+}
