@@ -2,7 +2,9 @@ body {
     background-color: #201A23;
     font-size: 16px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
     font-family: 'Crimson Text', serif;
 }
 
@@ -24,11 +26,15 @@ body {
     margin-bottom: 0;
 }
 
-.quote-author {
+.quote-author, .attribution  {
     color: #A52422;
     font-style: italic;
     font-size: 1rem;
-    margin-bottom: 0;
+    margin-bottom: 0; 
+}
+
+.attribution {
+    margin: 3rem 0 0;
 }
 
 .quote-btn {
